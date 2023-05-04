@@ -12,7 +12,7 @@ public class StartController {
         return "start";
     }
     @GetMapping("/wonlie")
-    public String test() {
+    public String testing() {
         return "start";
     }
 }
