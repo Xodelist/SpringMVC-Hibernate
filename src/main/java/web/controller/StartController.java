@@ -11,4 +11,8 @@ public class StartController {
     public String startPage() {
         return "start";
     }
+    @GetMapping("/wonlie")
+    public String test() {
+        return "start";
+    }
 }
